@@ -32,15 +32,17 @@ button:hover, a:hover {
 }
 
 
-section {
-  margin: 30px 0;
-}
-
-
 img {
   max-width: 500px; 
   width: 100%;        
   border-radius: 12px;
   box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
   margin-top: 15px;
+}
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
 }

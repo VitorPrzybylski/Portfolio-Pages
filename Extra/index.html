@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Extra</title>
+    <link rel="stylesheet" href="../style/index.css">
 </head>
+
 <body>
-    
+    <header>Pagina Extra</header>
+    <main>
+        <a href="../index.html">Voltar</a>
+        <script>
+            function TrocaCor() {
+                let cor = "#" + Math.floor(Math.random() * 16777215).toString(16);
+                document.body.style.backgroundColor = cor;
+            }
+        </script>
+        <button onclick="TrocaCor()">Trocar</button>
+    </main>
+    <footer>&copy; Todos os direitos reservados a Vítor Henrique</footer>
 </body>
+
 </html>
