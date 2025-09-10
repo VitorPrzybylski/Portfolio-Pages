@@ -17,3 +17,5 @@ body {
     <footer>
         &copy Todos os direitos reservados a Vitor Henrique
     </footer>
+    <script>document.body.style.backgroundColor= "Salmon"</script>
+    <button onclick="document.body.style.backgroundColor='Red'" >Trocar De Cor</button>
