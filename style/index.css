@@ -1,0 +1,65 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5dc;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* garante que o footer vá pro fim */
+}
+
+/* Header */
+header {
+  background: #d35400;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Conteúdo principal */
+main {
+  flex: 1; /* ocupa o espaço disponível */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centraliza vertical */
+  align-items: center;     /* centraliza horizontal */
+  text-align: center;
+  gap: 15px; /* espaçamento entre os botões */
+}
+
+/* Botões (links) */
+a {
+  display: block; /* força ficar em coluna */
+  width: 200px;   /* largura fixa */
+  text-align: center;
+  padding: 16px;
+  background: #e74c3c;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); /* sombra menor ao clicar */
+  transition: 0.3s;
+}
+
+a:hover {
+  background: #c0392b;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+}
